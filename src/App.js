@@ -4,7 +4,7 @@ import ReactSwitch from "react-switch";
 
 import Navbar from "./components/navbar";
 import AudioPlayer from "./components/AudioPlayer";
-import faith from "./assets/faithoverfear.jpg";
+import faith from "./assets/faithoverfear.png";
 import fofheader from "./assets/FaithOFear.png";
 import chanzGif from "./assets/chanzGiff.gif";
 import albumC from "./assets/chanzAlbum.png";
