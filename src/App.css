@@ -91,6 +91,11 @@ nav {
   color: white;
 }
 
+#musSection {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
 .Navbar {
   display: flex;
   flex-direction: "row";

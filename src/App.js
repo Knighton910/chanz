@@ -1,10 +1,14 @@
 import { createContext, useState } from "react";
 import "./App.css";
+import "./styles/index.css";
+import "./index.css";
+import "./styles/customize-progress-bar.css";
+import "./styles/customize-progress-bar.css";
 import ReactSwitch from "react-switch";
 
 import Navbar from "./components/navbar";
 import AudioPlayer from "./components/AudioPlayer";
-import faith from "./assets/faithoverfear.png";
+import chanzWhite from "./assets/chanzWhiteBlue.png";
 import fofheader from "./assets/FaithOFear.png";
 import chanzGif from "./assets/chanzGiff.gif";
 import albumC from "./assets/chanzAlbum.png";
@@ -31,10 +35,10 @@ function App() {
           />
         </div>
         <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-        <img src={faith} alt="main image" style={{ height: "70vmin" }} />
+        <img src={chanzWhite} alt="main image" style={{ height: "70vmin" }} />
         <div style={{ marginTop: "3rem" }}>
-          <div>
-            <h2 id="musSection">Music section</h2>
+          <div style={{ marginBottom: "7em" }}>
+            <h2 id="musSection">My latest Music</h2>
             <AudioPlayer />
           </div>
 

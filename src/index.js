@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import "./styles/customize-progress-bar.css";
+
 import App from "./App";
 
 // import AudioPlayer from "./components/AudioPlayer";
